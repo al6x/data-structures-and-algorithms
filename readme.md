@@ -2,4 +2,10 @@
 
 Documentation http://alexeypetrushin.github.com/data-structures-and-algorithms
 
-Run with `./run.sh`
+Usage
+
+``` Bash
+cd ~/tmp
+git clone git://github.com/alexeypetrushin/data-structures-and-algorithms.git
+./run.sh
+```
