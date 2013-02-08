@@ -41,8 +41,6 @@ public class Queue <T> {
   boolean isEmpty(){return first == null;}
 
   // # Example
-
-  //
   @org.junit.Test
   public void example(){
     // Queue containing messages.

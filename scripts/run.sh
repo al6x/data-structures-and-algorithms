@@ -1,17 +1,14 @@
 # Variables.
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+SCRIPTS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DIR="$(dirname "$SCRIPTS_DIR")"
 CLASSPATH=.:$DIR/vendor/junit-4.10.jar:$DIR/build
 
 # Cleaning.
-if [ ! -d $DIR/build ];
-then
-    mkdir $DIR/build
-fi
+[ -d $DIR/build ] || mkdir $DIR/build
 rm -rf $DIR/build/*
 
 # Compiling.
 javac -cp $CLASSPATH -d $DIR/build $DIR/*.java
-# javac -cp $CLASSPATH -d $DIR/build $DIR/test/*.java
 
 # Running.
 java -cp $CLASSPATH org.junit.runner.JUnitCore Queue

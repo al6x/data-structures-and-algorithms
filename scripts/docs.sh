@@ -1,0 +1,1 @@
+docco -o docs Queue.java
