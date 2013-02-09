@@ -36,3 +36,18 @@ Comparison and integer sorting.
 Search.
 
 - Binary Search
+
+Miscellaneous.
+
+- Bloom filters
+
+## Distributed Algorithms
+
+- Vector Clock http://basho.com/blog/technical/2010/01/29/why-vector-clocks-are-easy
+- Consistent Hashing http://weblogs.java.net/blog/tomwhite/archive/2007/11/consistent_hash.html
+
+## Persistent Data Structures
+
+- List
+- Map
+- Array
