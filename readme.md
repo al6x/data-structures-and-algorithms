@@ -39,7 +39,7 @@ Search.
 
 Miscellaneous.
 
-- Bloom filters
+- Bloom filters http://www.jasondavies.com/bloomfilter
 
 ## Distributed Algorithms
 
